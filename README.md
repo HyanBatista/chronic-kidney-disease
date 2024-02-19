@@ -7,8 +7,15 @@ This repository has a folder with the notebooks that were written for explore th
 It also has a folder with the generated images and for the written report detailing and justifying all the experiments.
 
 # Stack
-- Python
+- Python 3.10
 - OpenCV
 - Pandas
 - Numpy
 - JupyterLab
+
+# How to get up and running?
+```
+conda create -n ckd python=3.10
+conda activate ckd
+pip install -r requirements.txt
+```
